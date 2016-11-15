@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.naturereport.Inicio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:id="@+id/Reportarbtn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="REPORTAR" />
+
+    <Button
+        android:text="TOMAR EVIDENCIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/Evidenciabtn"
+        android:layout_below="@+id/Reportarbtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="SALIR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Evidenciabtn"
+        android:layout_toEndOf="@+id/Evidenciabtn"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/Salirbtn" />
+</RelativeLayout>
